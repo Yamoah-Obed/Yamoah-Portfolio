@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Yamoah-portfolio/static/css/main.472ad091.css",
+    "main.js": "/Yamoah-portfolio/static/js/main.d5f7de04.js",
+    "static/js/787.35fe7324.chunk.js": "/Yamoah-portfolio/static/js/787.35fe7324.chunk.js",
+    "static/media/mypic.jpeg": "/Yamoah-portfolio/static/media/mypic.5ae2f86a2c8c78ded537.jpeg",
+    "static/media/CURRICULUM VITAE(Obed).pdf": "/Yamoah-portfolio/static/media/CURRICULUM VITAE(Obed).c7248142f58b108a54c0.pdf",
+    "static/media/Capture.jpg": "/Yamoah-portfolio/static/media/Capture.dfae25cb5fa07117f239.jpg",
+    "static/media/PDF_file_icon.svg.png": "/Yamoah-portfolio/static/media/PDF_file_icon.svg.13e85d3c25e2099430a7.png",
+    "index.html": "/Yamoah-portfolio/index.html",
+    "main.472ad091.css.map": "/Yamoah-portfolio/static/css/main.472ad091.css.map",
+    "main.d5f7de04.js.map": "/Yamoah-portfolio/static/js/main.d5f7de04.js.map",
+    "787.35fe7324.chunk.js.map": "/Yamoah-portfolio/static/js/787.35fe7324.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.472ad091.css",
+    "static/js/main.d5f7de04.js"
+  ]
+}
