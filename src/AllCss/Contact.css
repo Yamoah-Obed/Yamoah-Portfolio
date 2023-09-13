@@ -1,0 +1,99 @@
+/* Base styles */
+.Contact {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.ContactContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ContactTitle h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ContactLineContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.ContactLine {
+  width: 50%;
+  height: 2px;
+  background-color: #007bff;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.submit {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .ContactTitle h2 {
+    font-size: 20px;
+  }
+
+  .ContactLine {
+    width: 30%;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ContactTitle h2 {
+    font-size: 22px;
+  }
+
+  .ContactLine {
+    width: 40%;
+  }
+}
+
+/* Television Styles */
+@media (min-width: 1024px) {
+  .ContactTitle h2 {
+    font-size: 28px;
+  }
+
+  .ContactLine {
+    width: 60%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-size: 20px;
+  }
+
+  button.submit {
+    font-size: 22px;
+  }
+}
+  

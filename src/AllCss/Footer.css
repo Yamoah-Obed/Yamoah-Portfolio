@@ -1,0 +1,31 @@
+.Footer {
+    align-items: center;
+    text-align: center;
+    background-color: #456cf6; /* Footer background color */
+    color: white; /* Font color */
+    height: 120px;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .FooterIconLink {
+    margin: 15px;
+    text-decoration: none;
+    color: #333; /* Adjust the color as needed */
+    transition: color 0.3s;
+  }
+  
+  .FooterIconLink:hover {
+    color: white; /* Change to the desired hover color */
+  }
+  
+  .FooterIcon {
+    margin-top: 10px;
+    width: 40px; /* Adjust the size of the icons */
+    height: 45px;
+  }
+  
+  .footerText {
+    font-size: 16px;
+  }
+  

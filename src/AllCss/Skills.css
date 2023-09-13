@@ -1,0 +1,96 @@
+/* Base styles */
+.Skills {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.SkillsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.SkillsTitle h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.SkillsLineContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.SkillsLine {
+  width: 50%;
+  height: 2px;
+  background-color: #007bff;
+}
+
+.skillListContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill {
+  border-radius: 15px;
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  background-color: #007bff;
+}
+.project:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.skill div {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .SkillsTitle h2 {
+    font-size: 20px;
+  }
+
+  .SkillsLine {
+    width: 30%;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .SkillsTitle h2 {
+    font-size: 22px;
+  }
+
+  .SkillsLine {
+    width: 40%;
+  }
+}
+
+/* Television Styles */
+@media (min-width: 1024px) {
+  .SkillsTitle h2 {
+    font-size: 28px;
+  }
+
+  .SkillsLine {
+    width: 60%;
+  }
+}
+ 

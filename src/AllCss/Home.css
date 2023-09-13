@@ -1,0 +1,187 @@
+.Home {
+  background-color: #f4f4f4;
+  padding:20px;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding:20px;
+}
+
+.leftSide {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+.text {
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.yamoah {
+  color: #007bff;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.HomeIcons {
+  margin-top: 20px;
+}
+
+.IconLink {
+  margin-right: 10px;
+}
+
+.Icon {
+  font-size: 30px;
+  color: #007bff;
+}
+
+.pic img {
+  max-width: 90%;
+  height: auto;
+  
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeInAnimation 2s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .Home {
+    padding: 10px;
+  }
+
+  .homeContainer {
+    flex-direction: column-reverse;
+  }
+
+  .leftSide {
+    text-align: center;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
+
+  .Icon {
+    font-size: 24px;
+  }
+  .pic img {
+    max-width: 70%;
+    height: auto;
+    
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Home {
+    padding: 15px;
+  }
+
+  .homeContainer {
+    padding: 40px;
+  }
+
+  .text {
+    font-size: 22px;
+  }
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  /* Add your desktop-specific styles here */
+  .Home {
+    padding: 30px;
+  }
+
+  .homeContainer {
+    padding: 40px;
+  }
+
+  .text {
+    font-size: 30px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .Icon {
+    font-size: 36px;
+  }
+
+  .homeContainer {
+    width: auto;
+    height: 100vh;
+   
+  }
+
+ 
+}
+
+
+/* Television Styles */
+@media (min-width: 1279px) {
+  .Home {
+    padding: 30px;
+  }
+
+  .homeContainer {
+    padding: 60px;
+  }
+
+  .text {
+    font-size: 34px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .Icon {
+    font-size: 36px;
+  }
+} 
