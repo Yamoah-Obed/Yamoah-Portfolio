@@ -1,6 +1,6 @@
 {
   "homepage" : "https://Yamoah-Obed.github.io/Yamoah-portfolio",
-  "name": "newportfolio",
+  "name": "newportfolio", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
